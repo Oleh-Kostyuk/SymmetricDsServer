@@ -1,0 +1,15 @@
+server:
+  port: 8089
+
+spring:
+  main:
+    banner-mode: "off"
+  jpa:
+    show_sql: true
+    database: h2
+    hibernate:
+      dialect: org.hibernate.dialect.H2Dialect
+      ddl-auto: create-drop
+  h2:
+    console:
+      enabled: true
