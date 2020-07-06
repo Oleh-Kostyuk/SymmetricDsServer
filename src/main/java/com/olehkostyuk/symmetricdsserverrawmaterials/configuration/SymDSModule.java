@@ -1,4 +1,4 @@
-package com.olehkostyuk.symmetricdsserverrawmaterials;
+package com.olehkostyuk.symmetricdsserverrawmaterials.configuration;
 
 import org.jumpmind.symmetric.common.ParameterConstants;
 import org.jumpmind.symmetric.web.ServerSymmetricEngine;
@@ -42,13 +42,7 @@ import java.util.Properties;
             SymmetricEngineHolder holder = new SymmetricEngineHolder();
 
             Properties properties = new Properties();
-//            properties.put(ParameterConstants.DATA_LOADER_IGNORE_MISSING_TABLES, "true");
-//            properties.put(ParameterConstants.TRIGGER_CREATE_BEFORE_INITIAL_LOAD, "false");
-//            properties.put(ParameterConstants.AUTO_RELOAD_ENABLED, "true");
-//            properties.put(ParameterConstants.AUTO_REGISTER_ENABLED, "true");
-//            properties.put(ParameterConstants.REGISTRATION_URL, "http://127.0.0.1:8080");
-//            properties.put (ParameterConstants.NODE_GROUP_ID,"server");
-//            properties.put(ParameterConstants.EXTERNAL_ID,"serverEngine");
+
             File file = null;
             try {
                 file = new ClassPathResource(
