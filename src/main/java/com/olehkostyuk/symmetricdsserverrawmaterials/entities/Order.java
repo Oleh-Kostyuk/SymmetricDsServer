@@ -6,7 +6,7 @@ import javax.persistence.*;
 @Table(name="orders")
 public class Order {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private  Long Id;
 
     @ManyToOne(fetch = FetchType.EAGER)
